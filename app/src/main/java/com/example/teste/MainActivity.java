@@ -47,12 +47,33 @@ public class MainActivity extends AppCompatActivity {
                 "As palavras são como flechas. Depois que são lançadas, não tem como voltar atrás. (Shida Uryuu, Bleach)",
                 "Não viva com falsidades ou medos, porque você acabará se odiando. (Uzumaki Naruto)",
                 "Não importa para mim se os deuses existem ou não, eu sou o mestre da minha vida; Eu passo em questões religiosas, mas nunca desprezarei alguém que acredite nelas. (Roronoa Zoro)",
-                "Não importa o quão habilidoso você seja, você sozinho não pode mudar o mundo. Mas essa é a coisa maravilhosa sobre o mundo. (L)", //30
+                "Não importa o quão habilidoso você seja, você sozinho não pode mudar o mundo. Mas essa é a coisa maravilhosa sobre o mundo. (L)",
+                "Se as pessoas acreditam em tudo que ouvem, então não há diferença entre a mentira e a verdade. (Kuroshitsuji)",
+                "O que é importante não é o que os outros pensam de você, mas como você age perante a isso. (Nanatsu no Taizai)",
+                "Dor, tristeza e alegria... esses sentimentos permitem que você entenda os outros. (Naruto)",
+                "Cometemos muitos erros, embora o que possamos fazer é aprender com eles e nos esforçarmos para que não sejam repetidos. (Assassination Classroom)",
+                "Às vezes as questões são complicadas e as respostas são simples. (Death Note)",
+                "A raiva bloqueia o raciocínio de momentos que deveríamos agir com inteligência. (Yu-Gi-Oh!)",
+                "Então, nunca deixe de sonhar e diga pra si mesmo que deve acreditar. Lembre-se, o mundo não vai parar pra que você possa se lamentar. (Naruto Shippuden)",
+                "Como eu poderia viver feliz esquecendo da pessoa de quem mais gosto? (Makimachi Misao)",
+                "Sacrificar sua felicidade pela felicidade de quem se ama, é de longe o mais puro tipo de amor. (Naruto Shippuden)",
+                "Cada um de nós tem sua própria vida para viver. É uma jornada, não uma separação. É um começo, não um fim. Vai ser um pouco solitária, mas é assim que as coisas são. (Samurai X)",
+                "Quando chegar a hora… eu desejo apenas estar preparada para aceitar suas dificuldades… não importa quais sejam. (Fruits Basket)",
+                "Nenhum ser humano na sociedade deveria ser considerado menos valioso que o outro. (Samurai X)",
+                "Impossível é uma palavra que as pessoas inventaram para se sentir melhor quando desistem de algo. (Tengen Toppa Gurren-Lagann)",
+                "Não se esqueça que algum dia você irá morrer, e isso é mais uma razão para viver o agora. (Death Parade)",
+                "Toda irregularidade no mundo é consequência da falta de atitude de alguém. (Tokyo Ghoul)",
+                "Quando você ama, há o risco de odiar. (Naruto)",
+                "Quando decidi seguir meu sonho, eu já tinha descartado minha vida. (Roronoa Zoro)",
+                "Pesadelos não duram para sempre. Um dia você acorda e eles se foram. (Dragon Ball)",
+                "Se você está vivo pode recomeçar. Ninguém tem o direito de te tirar isso. (Death Note)",
+                "Escute a voz de Deus e siga-a, saiba que com o tempo vai encontrar sua salvação. (Death Note)",
+                "Daqui pra frente vai ser uma solidão.....eu e você vamos nos separar em breve. (Death Note)"//50
                 };
 
 
         TextView texto = findViewById(R.id.Frase);
-        int numero = new Random().nextInt(30);
+        int numero = new Random().nextInt(50);
         texto.setText(frasesAnime[numero]);
     }
 
